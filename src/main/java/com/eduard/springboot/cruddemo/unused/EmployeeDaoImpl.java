@@ -1,4 +1,4 @@
-package com.eduard.springboot.cruddemo.dao;
+package com.eduard.springboot.cruddemo.unused;
 
 import com.eduard.springboot.cruddemo.entity.Employee;
 import jakarta.persistence.EntityManager;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class EmployeeDaoImpl implements EmployeeDAO{
+public class EmployeeDaoImpl implements EmployeeDAO {
 
     //define field for entitymanager
     private EntityManager entityManager;
